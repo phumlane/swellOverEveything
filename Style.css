@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-image: url(images/background.jpg);
+    height: 80vh;
+  
+    background-position: cover;
+}
+
+.nav .navbar{
+    height: 12vh;
+   
+    background-image: linear-gradient(to right, white,orange);
+}
+
+.nav .navbar h2{
+    float: left;
+}
+.nav .navbar ul{
+    float: right;
+    text-decoration: none;
+}
+
+.nav .navbar ul li{
+    list-style: none;
+    display: inline;
+    font-size: 18px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.nav h1{
+    font-size: 50px;
+    color: white;
+    
+}
+.nav p{
+    font-size: 35px;
+    color: white;
+}
+
+.nav input{
+    border-radius: 18px;
+    font-size: 20px;
+    background-color: tomato;
+    border-color: transparent;
+    padding-left: 15px;
+    padding-right: 15PX;
+}
+
+.about h1{
+    font-size: 50px;
+    text-align: center;
+}
+hr{
+    width: 60px;
+    height: 2px;
+    background-color: tomato;
+    border-color: white;
+}
+.about #about_img{
+    width: 420px;
+    height: 450px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 50px;
+    border-radius: 8px;
+}
+
+.about p{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 80px;
+    margin-right: 700px;
+    font-size: 18px;
+}
+
+.shop h1{
+    text-align: center;
+    font-size: 50px;
+}
+.shop h3{
+    text-align: center;
+    font-size: 29px;
+}
+.box{
+    width: 300px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 2);
+    border-radius: 10px;
+    overflow: hidden;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 4%;
+    margin-top: 60px;
+    float: left;
+   
+}
+
+.cont::after{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.cont{
+    margin-left: 60px;
+}
+
+.shop{
+    margin-top: 500px;
+}
+
+.slide-img{
+    height: 450px;
+
+}
+
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    box-sizing:border-box ;
+
+}
+.box .slide-img:hover {
+    opacity: 0.6;
+    background-color: green;
+}
+ .slide-img img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.slide-img input{
+    position: relative;
+    align-items: center;
+    
+}
+
+.slide-img:hover img{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.box:hover{
+    background-image: to right, white ,green;
+}
+.box .detail a{
+    font-size:30px;
+}
+.detail a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.detial .type span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.detial{
+    width: 100%;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.type {
+    display: flex;
+    flex-direction: column;
+}
+#shop{
+    background-image: linear-gradient(to bottom, white,rgb(150, 132, 100));
+    height: 100%;
+}
+
+.btn-buy input{
+    width: 100%;
+    height: 30px;
+    background-color:coral;
+}
+.btn { 
+    text-align: center;   
+}
+.btn input{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 250px;
+    background-image: linear-gradient(to right, white,orange);
+    border-color: transparent;
+}
+footer{
+    background-color: black;
+    height: 15vh;
+}
+

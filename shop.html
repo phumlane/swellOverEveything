@@ -1,0 +1,74 @@
+
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" href="Sstyle.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <link rel=script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+     <title>myShop</title>
+   </head>
+   <body>
+     <div class="contianer" style="width:700px;">
+     <h3>Shopping Cart</h3><br/>
+     
+         <div class="col-md-4">
+              <form method="post" action='' >
+                <div style="border: 5px solid #eaeaec; margin:-1px -30px 10px -1px; box-shadow: 0 1px 2px rgba(0,0,0,0.05); padding:20px;">
+                <img src="" class="image_responsive" />
+                <h4 class=""></h4>
+                <h4 class="text-price"> R</h4>
+                <input type="text" name="quantity" class="form-control" value="1"/>
+                <input type="hidden" name="hidden_name" value=""/>
+                <input type="hidden" name="hidden_price" value="buy"/>
+                <input type="submit" name="add_to_cart"  class="btn btn-success" value="Add to Cart"/>
+
+
+
+        </div>
+              </form>
+
+         </div>
+        
+      <div ></div>
+      <br />
+      <h3>My Shopping Cart </h3>
+      <div class = "table-resposnsive">
+        <table class="table table-bordered">
+          <tr>
+            <th width="40%">Item Name</th>
+            <th width="10%">Quantity</th>
+            <th width="10%">Price</th>
+            <th width="15%">Total</th>
+            <th width="5%">Action</th>
+          </tr>
+        
+              <tr>
+                <td></td>
+                <td></td>
+                <td>R</td>
+                <td>R</td>
+                <td><a href="aShopCart.php?action=delete&id="><span class="text-danger">Remove</span></a></td>
+              </tr>
+              
+            <tr>
+              <td colspan="3" alig="right">Total</td>
+              <td >R </td>
+              <td></td>
+
+
+            </tr>
+        
+         </table>
+        </div>
+
+
+
+     </div>
+     <div>
+        <a href="Cashout" class="btn btn-outline-success">Cash Out</a>
+     </div>
+   </body>
+ </html>
