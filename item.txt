@@ -1,0 +1,15 @@
+11,Guys Lace-up Front Combat boots,45000,15,3000
+21,Guys Red Pocket Denim Overall,24375,25, 975
+31,Guys Letter Graphic Pocket Shirt,13800,23,600
+41,Guys CkeckerBoard Distressed Jean,15000,30,500
+51,2 pcs Guys Bucket Hat,1500,100,150
+61,Guys Trpical Tee,37500,150,250
+71,Guys letter Drapic Drawatring Shorts,30000,200,155
+81,Guys Japanese Letter Colorblock Hoodie,28000,70,400
+91,Corduroy Pocket Cami Romper,17750,50,355
+101,Silid Doubl-breasted Notched Neck Blazer,10400,13,800
+111,Holloween Pattern Mesh Lingerie Set,30000,150,200
+121,Cow Print Lapel Neck PJ Set,6000,30,200
+131,Holloween Pattern Sweatsgirt & Shorts Lounge Set,40000,200,200
+141,Guys Plaid Pattern Tape Belt,10000,200,50
+151,Twilly Scarf Decor Pant chain,2700,30,90

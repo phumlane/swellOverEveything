@@ -1,0 +1,77 @@
+.btn btn-outline-success{
+  margin-bottom: 20px;
+}
+.btns {
+    width: 100%;
+    background: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: grey;
+    border: 2px solid #0c6e0f;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 50px;
+}
+.para{
+  font-size: 25px;
+}
+
+
+
+.login-box{
+width: 288px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+.login-box h1{
+
+    font-size: 40px;
+    border-bottom: 3px solid #0c6e0f;
+    margin-bottom: 30px;
+    padding: 13px 0;
+    font-weight: bolder;
+
+
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid  #0c6e0f;
+
+
+
+}
+
+.textbox input{
+
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 16px;
+    float: right;
+    width: 255px;
+    margin: 5px;
+}
+
+.btn {
+    width: 100%;
+    background: none;
+    border: 2px solid #0c6e0f;
+
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin:12px ;
+}
